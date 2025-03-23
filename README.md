@@ -107,7 +107,7 @@ In contrast, a more capable LLaVA-architecture model (represented by the red cur
 
 
 # Citation
-Our project is modified based on [Verl](https://github.com/volcengine/verl). If it is helpful to you, please cite us.
+❤️If it is helpful to you, please cite us.👑
 
 ```bibtex
 @misc{GRPO4llava,
@@ -121,7 +121,7 @@ Our project is modified based on [Verl](https://github.com/volcengine/verl). If 
 
 
 
-
+Our project is modified based on [Verl](https://github.com/volcengine/verl). 
 We recommend to also cite the original work.
 
 ```bibtex
