@@ -5,7 +5,7 @@
 
 ## What this project do
 
-There are no open-sourced GRPO algorithm based on the LLaVA architecture, so we filled this gap.
+🔥There are no open-sourced GRPO algorithm based on the LLaVA architecture, so we filled this gap.🔥
 
 
 ## Features
