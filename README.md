@@ -113,7 +113,7 @@ Our project is modified based on [Verl](https://github.com/volcengine/verl). If 
 @misc{GRPO4llava,
   title        = {GRPO for Llava},
   author       = {Yang, Lele and Diao, Muxi and Liang, Kongming and Ma, Zhanyu},
-  howpublished = {\url{https://github.com/   }},
+  howpublished = {\url{https://github.com/PRIS-CV/GRPO-for-Llava}},
   year         = {2025}
 }
 
