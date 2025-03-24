@@ -2,6 +2,10 @@ set -x
 
 export VLLM_ATTENTION_BACKEND=XFORMERS
 
+export WANDB_API_KEY='Your wandb key'
+
+HOME='Your grpo4llava path'
+
 python3 -m verl.trainer.main_ppo \
     algorithm.adv_estimator=grpo \
     data.train_files=$HOME/data/geo3k/train.parquet \

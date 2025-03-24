@@ -25,8 +25,16 @@
 
 
 ## Installation
+The installation steps are consistent with Verl. You can refer to the [Verl documentation](https://verl.readthedocs.io/en/latest/start/install.html) or follow the installation steps below:
 
-Installation steps are consistent with Verl. Please refer to the [Verl Documentation](https://verl.readthedocs.io/en/latest/start/install.html).
+```bash
+pip3 install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu124
+pip3 install flash-attn --no-build-isolation
+git clone https://github.com/PRIS-CV/GRPO-for-Llava.git
+cd GRPO-for-Llava
+pip3 install -e .
+```
+
 
 **Critical Modifications Required:**  
 To ensure successful training, you must modify the following files in your environment's transformers package:
@@ -75,6 +83,12 @@ class LlavaPreTrainedModel(PreTrainedModel):
 ## QuickStart: Run llava1.5-7b-hf on [Geometry3K](https://huggingface.co/datasets/hiyouga/geometry3k) Dataset
 
 **Ensure you have completed all steps in the Installation section before proceeding.**
+
+### Data Preprocessing
+```bash
+python examples/data_preprocess/geo3k.py --local_dir 'Your geo3k dir.'
+```
+
 
 ### GRPO Training
 

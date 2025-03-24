@@ -15,6 +15,6 @@ pylatexenc
 ray[data,train,tune,serve]
 tensordict<0.6
 torchdata
-transformers
+transformers==4.49.0
 wandb
-vllm
+vllm==0.7.3
