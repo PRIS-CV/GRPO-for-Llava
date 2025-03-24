@@ -25,9 +25,16 @@
 
 
 ## Installation
+
+### Requirements
+
+- CUDA >= 12.1 (We recommend 12.4)
+
 The installation steps are consistent with Verl. You can refer to the [Verl documentation](https://verl.readthedocs.io/en/latest/start/install.html) or follow the installation steps below:
 
 ```bash
+conda create -n grpo4llava python=3.10
+conda activate grpo4llava
 pip3 install torch==2.4.0 --index-url https://download.pytorch.org/whl/cu124
 pip3 install flash-attn --no-build-isolation
 git clone https://github.com/PRIS-CV/GRPO-for-Llava.git
